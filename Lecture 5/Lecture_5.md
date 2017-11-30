@@ -47,7 +47,7 @@
 	- `cc -o executable-name prog.c libctest.a`
 	- `cc -o executable-name prog.c -L/path/to/library-directory -lctest`
 - Файлы для примера:
-	- ctest1.c
+- ctest1.c
 
 ```C
 void ctest1(int *i)
@@ -56,7 +56,7 @@ void ctest1(int *i)
 }
 ```
 
-	- ctest2.c
+- ctest2.c
 
 ```C
 void ctest2(int *i)
@@ -65,7 +65,7 @@ void ctest2(int *i)
 }
 ```
 
-	-prog.c
+-prog.c
 
 ```C
 #include <stdio.h>
@@ -654,7 +654,6 @@ int main(int argc, char **argv)
 	- [ld.so](http://man.yolinux.com/cgi-bin/man2html?cgi_command=ld.so) динамический линкер/загрузчик a.out
 	- [LD_PRELOAD и пересечение функий в Linux](https://scaryreasoner.wordpress.com/2007/11/17/using-ld_preload-libraries-and-glibc-backtrace-function-for-debugging/)
 - Компиляция, совместимая с Red Hat 6.2 из Red Hat 7.1 (glibc 2.2.2). См. [RELEASE NOTES](ftp://herbie.ucs.indiana.edu/pub/linux/redhat/redhat/redhat-7.1-en/os/i386/RELEASE-NOTES)
-
 `export LD_ASSUME_KERNEL=2.2.5. /usr/i386-glibc21-linux/bin/i386-glibc21-linux-env.sh`
 
 - Переменная окружение для подсветки предупреждений, ошибок и так далее: `export CC="colorgcc"`
