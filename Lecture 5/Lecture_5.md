@@ -65,7 +65,7 @@ void ctest2(int *i)
 }
 ```
 
--prog.c
+- prog.c
 
 ```C
 #include <stdio.h>
@@ -660,7 +660,7 @@ int main(int argc, char **argv)
 
 ### Ссылки
 
--[Оригинал статьи + информация для C++](http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html)
+- [Оригинал статьи + информация для C++](http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html)
 - [LDP: разделяемые библиотеки](http://www.tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html)
 - [Мануал objdump](man.yolinux.com/cgi-bin/man2html?cgi_command=objdump)
 - [Мануал readelf](http://man.yolinux.com/cgi-bin/man2html?cgi_command=readelf)
